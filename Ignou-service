@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGNOU Services | Student Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+        body { line-height: 1.6; background: #f4f6f9; color: #333; }
+        header { background: #0d47a1; color: white; padding: 20px 0; }
+        .container { width: 90%; max-width: 1100px; margin: auto; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        nav h1 { font-size: 24px; }
+        nav ul { list-style: none; display: flex; gap: 20px; }
+        nav ul li a { color: white; text-decoration: none; font-size: 14px; }
+        .hero { background: white; padding: 60px 20px; text-align: center; }
+        .hero h2 { font-size: 32px; margin-bottom: 15px; color: #0d47a1; }
+        .hero p { font-size: 16px; color: #555; }
+        .services { padding: 50px 20px; }
+        .services h2 { text-align: center; margin-bottom: 40px; color: #0d47a1; }
+        .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .card h3 { margin-bottom: 10px; color: #0d47a1; }
+        .about { background: #e3f2fd; padding: 50px 20px; }
+        .about h2 { text-align: center; margin-bottom: 20px; color: #0d47a1; }
+        .contact { padding: 50px 20px; }
+        .contact h2 { text-align: center; margin-bottom: 20px; color: #0d47a1; }
+        form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 12px; background: #0d47a1; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        footer { background: #0d47a1; color: white; text-align: center; padding: 15px; margin-top: 30px; font-size: 14px; }.whatsapp-float {
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 28px;
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .whatsapp-float:hover { background-color: #1ebe5d; }
+</style>
+
+</head>
+<body><header>
+    <div class="container">
+        <nav>
+            <h1>IGNOU Service</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header><section class="hero" id="home">
+    <div class="container">
+        <h2>IGNOU Student Support Services</h2>
+        <p>IGNOU students ke liye complete madad – Admission, Assignment, Exam aur Project guidance ek hi jagah.</p>
+    </div>
+</section><section class="services" id="services">
+    <div class="container">
+        <h2>Our Services | Hamari Sevaayein</h2>
+        <div class="service-grid">
+            <div class="card">
+                <h3>Admission Guidance</h3>
+                <p>IGNOU admission form bharne aur course selection me poori madad.</p>
+            </div>
+            <div class="card">
+                <h3>Assignment Help</h3>
+                <p>Accurate aur well‑formatted IGNOU assignments banwane ki sahayata.</p>
+            </div>
+            <div class="card">
+                <h3>Exam Form Support</h3>
+                <p>Exam form fill karne aur last date guidance ke liye support.</p>
+            </div>
+            <div class="card">
+                <h3>Project & Practical Help</h3>
+                <p>IGNOU project report, synopsis aur viva guidance.</p>
+            </div>
+        </div>
+    </div>
+</section><section class="about" id="about">
+    <div class="container">
+        <h2>About Us | Hamare Baare Mein</h2>
+        <p style="text-align:center; max-width:800px; margin:auto;">
+            Hum IGNOU students ko academic process samajhne aur sahi tarike se complete karne me madad karte hain. 
+            Hamara goal hai ki students bina confusion ke apna course successfully complete kar saken.
+        </p>
+    </div>
+</section><section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact Us | Sampark Karein</h2>
+        <p style="text-align:center; margin-bottom:15px;">📞 Phone / WhatsApp: <strong>8986267283</strong></p>
+        <form>
+            <input type="text" placeholder="Your Name / Aapka Naam" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message / Aapka Sandesh"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section><footer>
+    <p>© 2026 IGNOU Service | Student Support Platform</p>
+</footer><a href="https://wa.me/918986267283" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
